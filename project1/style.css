@@ -1,0 +1,84 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* utility classes */
+.img-responsive {
+  max-width: 100%;
+}
+.txt1 {
+  background: url(img/heroimage.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.txt2 {
+  color: white;
+  position: absolute;
+  /* text-align: center; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.txt2 h1 {
+  font-size: 2.4em;
+  text-align: center;
+}
+.txt2 span {
+  margin-left: 5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.txt3 {
+  text-align: center;
+}
+
+.txt3 .txt4 {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+}
+
+.txt3 button {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #00bab1;
+  color: white;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+/* product Section  */
+.items {
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  float: left;
+  width: 32%;
+  margin-left: 0.5rem;
+}
+
+.item:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .item {
+    width: 100%;
+    float: left;
+  }
+}
